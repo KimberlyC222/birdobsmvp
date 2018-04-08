@@ -1,0 +1,53 @@
+img {
+  float: right;
+  height: 85px;
+  width: auto;
+}
+
+@media only screen and (min-width: 350px) {
+  img {
+  float: right;
+  height: 105px;
+  width: auto;
+  }
+  main {
+  width: 300px;
+  padding: 20px;
+  border-radius: 3px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 5px 8px 25px;
+  } 
+}
+
+@media only screen and (min-width: 640px) {
+  img {
+  float: right;
+  height: 125px;
+  width: auto;
+  }
+  main {
+  width: 500px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 5px 8px 25px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  img {
+  float: right;
+  height: 125px;
+  width: auto;
+  }
+  main {
+  width: 600px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 1px 8px 25px;
+  }
+}
